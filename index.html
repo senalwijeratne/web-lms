@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+		<title> LMS-Home</title>
+		<meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="Cascading.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body >
+<div class="container" id="bgimg" style="background-image:url(home.jpg)"></div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">			
+					<div class="navbar-header" >
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Mynavbar">
+
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+
+					</button>
+						<a href="index.html" class="navbar-brand">Educatia</a>
+				
+					</div>
+				<div class="collapse navbar-collapse" id="Mynavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class=""><a href="lectures.html#">Lectures</a></li>
+						<li class=""><a href="timetable.html">Time Table</a></li>
+						<li class=""><a href="contact.html">Contact Us</a></li>
+						<li class=""><a href="About.html">About</a></li>
+					</ul>
+				</div>			
+			</div>
+		</nav>
+
+		<hr>
+
+		<div class="container" id="top-mar">
+			<div class="jumbotron text-center" id="jumbo">
+				<div class="container" >
+					<h1>Welcome to Educatia</h1>
+					<p>Educatia is a global education network that helps connect all learners with the resources needed to reach their full potential</p>
+					
+					<div class="container">
+					
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#PopUpWindow">login</button>
+					<div class="modal fade" id="PopUpWindow">
+					<div class="modal-dialog">
+
+					<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="dismiss" data-dismiss="modal" id="close">&times;</button>
+						<h3 class="modal-title" id="log-head"> Log in</h3>
+					</div>
+					
+					<div class="modal-body">
+					<form role="form" action="login.php" method="POST">	
+					<div class="form-group">
+					<input type="email" class="form-control" placeholder="Enter your email"> 
+					</div>
+					<div class="form-group">
+					<input type="password" class="form-control" placeholder="Enter your Password">
+					</div>	
+					</form>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-lg btn-primary btn-block">Log in</button>
+					</div>	
+					</div>
+					</div>
+					</div>					
+					</div>
+				</div>
+				<div class="container" style="color:black">
+					
+					<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#PopUpRegister">Register</button>
+					<div class="modal fade" id="PopUpRegister">
+					<div class="modal-dialog">"
+
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<button type="button" class="dismiss" data-dismiss="modal" id="close">&times;</button>
+							<h3 class="modal-title" id="log-head">Sign Up</h3>
+						</div>
+						
+						<div class="modal-body">
+							<form role="form" action="register.php" method="POST">	
+							<div class="form-group">
+							<input type="text" name="fname" class="form-control" placeholder="Enter your first name"> 
+							</div>
+							<div class="form-group">
+							<input type="text" name="lname" class="form-control" placeholder="Enter your last name">	
+							</div>
+							<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Enter your E-mail">	
+							</div>
+							<div class="form-group">
+							<div class="col-md-6">
+							<input type="password" name="pass" class="form-control" placeholder="Enter Password">
+							</div>	
+							</div>
+							<div class="form-group">
+							<div class="col-md-6">
+							<input type="password" name="conpass" class="form-control" placeholder="confirm Password">
+							</div>	
+							</div>
+
+							<br><br><br>
+
+							<div class="form-group">
+							<input type="text" name="telno" class="form-control" placeholder="Enter your Mobile no">	
+							</div>
+							
+							<div class="form-group">					
+								<label for="gen" class= "col-md-6" >Gender</label>
+								<div class="form-group " id="check">
+								<label><input type="radio" class="col-md-6" name="opt" value="0"> Male</label>	
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp						
+								<label><input type="radio" class="col-md-6" name="opt" value="0"> Female</label>	
+								</div>
+								<div class="modal-footer">
+								<button class="btn btn-lg btn-success btn-block">Join Now</button>
+								</div>
+							</div>	
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	</div>
+</body>
+</html>
