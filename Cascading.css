@@ -1,0 +1,86 @@
+body{
+	background-color:#CCC;
+
+}
+
+#top-mar{
+	margin-top:50px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 104%;
+    height: 100%;
+    overflow: hidden;
+    text-align:left;
+}
+.google-maps iframe {
+	border-color:white;
+	border-style:solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	height:100%;
+}
+
+#bgimg{
+    height:100%;
+    width:100%;
+    -webkit-background-size: 100% 100%;
+    text-align:center;
+    align-items:cover;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    position: fixed;
+}
+
+#jumbo{
+	position: relative;
+	background: rgba(255, 255, 255, 0);
+	color: white;
+}
+
+#ooter{
+	background-color: #000;
+	position:fixed;
+	height: 30px;
+	width: 100%;
+	bottom: 0px;
+}
+
+.nav-tabs>li>a {
+  background-color:; 
+  border-color:;
+  color:#fff;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: #CCC;
+  background-color: #CCC;
+}
+
+#lectabs>li>a {
+  background-color:#CCC; 
+  border-color:#CCC;
+  color:#fff;
+}
+
+#lectabs>li>a:hover {
+  border-color: #E6E6E6;
+  background-color: #E6E6E6;
+}
+
+#close{
+
+    float:right;
+    color: #000000;
+}
+#log-head{
+
+    color:#000000;
+}
