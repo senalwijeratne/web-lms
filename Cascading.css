@@ -84,3 +84,12 @@ body{
 
     color:#000000;
 }
+
+#aboutbar{
+
+  background: rgba(255, 255, 255, 0);
+
+}
+#barcol{
+  color:white;
+}
